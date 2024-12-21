@@ -17,4 +17,4 @@ Ce projet est un exercice réalisé en décembre 2024 dans le cadre de mon appre
 + Réalisé seule, pour m'entraîner à appliquer les notions apprises.
 
 <br/>
-![Screenshot du rendu de l'exercie](https://github.com/NicolasBrondin/NicolasBrondin/blob/master/img/cover.jpg)
+Screenshot du rendu de l'exercie : https://github.com/Anais-DZ/Create_your_avatar/blob/main/create_your_avatar.png
