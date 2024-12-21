@@ -1,0 +1,87 @@
+html {
+    background: url(img/background_paper.jpg) center no-repeat;
+    background-size: cover;
+}
+
+
+.container {
+    display: grid;
+    grid-template-rows: 5% 45% 5% 45%;
+    border: dotted darkslategray 4px;
+    margin: 50px 180px;
+}
+
+.avatar {
+    grid-row: 2;
+}
+
+.hair_cut {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hair_color {
+    grid-row: 4;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 40px 0 30px 0;
+}
+
+#face {
+    position: relative;
+    z-index: -1;
+}
+
+#hair_1 {
+    position: absolute;
+}
+
+#black {
+    background-color: #403c3c;
+}
+
+#blond {
+    background-color: #ffb434;
+}
+
+#turquoise {
+    background-color: #08a49c;
+}
+
+.color {
+    height: 70px;
+    width: 70px;
+    cursor: pointer;
+    margin: 30px;
+}
+
+.color_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1, h2 {
+    text-align: center;
+    color: darkslategray;
+    font-family: "chewy";
+    letter-spacing: 2px;
+}
+
+h1 {
+    margin: 50px 0 90px 0;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    font-style: oblique;
+    font-weight: lighter;
+}
+
+#arrow_left, #arrow_right {
+    cursor: pointer;
+    margin: 0 40px;
+}
